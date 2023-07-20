@@ -1,3 +1,12 @@
-[gd_scene format=3 uid="uid://d21avbn0l33dl"]
+[gd_scene load_steps=3 format=3 uid="uid://d21avbn0l33dl"]
+
+[ext_resource type="Script" path="res://board/Board.cs" id="1_5466b"]
+[ext_resource type="Texture2D" uid="uid://cj1cpj17u2gh1" path="res://board/board.png" id="2_ulyy3"]
 
 [node name="Board" type="Node2D"]
+z_index = -100
+script = ExtResource("1_5466b")
+
+[node name="BoardSprite" type="Sprite2D" parent="."]
+z_index = -100
+texture = ExtResource("2_ulyy3")
