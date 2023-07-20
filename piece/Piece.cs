@@ -13,15 +13,3 @@ public partial class Piece : Node2D
 	{
 	}
 }
-
-
-private void _on_mouse_entered()
-{
-	// Replace with function body.
-}
-
-
-private void _on_mouse_exited()
-{
-	// Replace with function body.
-}

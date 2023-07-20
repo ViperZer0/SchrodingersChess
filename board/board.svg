@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="board.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.8044"
+     inkscape:cx="391"
+     inkscape:cy="354.3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1356"
+       units="in"
+       spacingx="25.4"
+       spacingy="25.4" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234"
+       width="25.4"
+       height="25.4"
+       x="-25.4"
+       y="0"
+       transform="scale(-1,1)"
+       inkscape:export-filename="board.png"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7"
+       width="25.4"
+       height="25.4"
+       x="-50.8"
+       y="0"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="0"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4"
+       width="25.4"
+       height="25.4"
+       x="-76.2"
+       y="0"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="0"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5"
+       width="25.4"
+       height="25.4"
+       x="-127"
+       y="3.815e-07"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4"
+       width="25.4"
+       height="25.4"
+       x="-152.4"
+       y="3.815e-07"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="3.815e-07"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4"
+       width="25.4"
+       height="25.4"
+       x="-177.8"
+       y="3.815e-07"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="3.815e-07"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-3"
+       width="25.4"
+       height="25.4"
+       x="177.8"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-0"
+       width="25.4"
+       height="25.4"
+       x="152.4"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-78"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-6"
+       width="25.4"
+       height="25.4"
+       x="127"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-8"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5-8"
+       width="25.4"
+       height="25.4"
+       x="76.2"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4-4"
+       width="25.4"
+       height="25.4"
+       x="50.8"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7-3"
+       width="25.4"
+       height="25.4"
+       x="3.815e-07"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4-1"
+       width="25.4"
+       height="25.4"
+       x="25.4"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4-4"
+       width="25.4"
+       height="25.4"
+       x="3.815e-07"
+       y="-50.8"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-9"
+       width="25.4"
+       height="25.4"
+       x="-25.4"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-20"
+       width="25.4"
+       height="25.4"
+       x="-50.8"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-6"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-8"
+       width="25.4"
+       height="25.4"
+       x="-76.2"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-9"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5-2"
+       width="25.4"
+       height="25.4"
+       x="-127"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4-6"
+       width="25.4"
+       height="25.4"
+       x="-152.4"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7-6"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4-4"
+       width="25.4"
+       height="25.4"
+       x="-177.8"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4-9"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="50.8"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-3-5"
+       width="25.4"
+       height="25.4"
+       x="177.8"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-0-0"
+       width="25.4"
+       height="25.4"
+       x="152.4"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-78-4"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-6-8"
+       width="25.4"
+       height="25.4"
+       x="127"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-8-7"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5-8-1"
+       width="25.4"
+       height="25.4"
+       x="76.2"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4-4-7"
+       width="25.4"
+       height="25.4"
+       x="50.8"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7-3-2"
+       width="25.4"
+       height="25.4"
+       x="1.907e-06"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4-1-7"
+       width="25.4"
+       height="25.4"
+       x="25.4"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4-4-2"
+       width="25.4"
+       height="25.4"
+       x="1.907e-06"
+       y="-101.6"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-2"
+       width="25.4"
+       height="25.4"
+       x="-25.4"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-6"
+       width="25.4"
+       height="25.4"
+       x="-50.8"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-1"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-0"
+       width="25.4"
+       height="25.4"
+       x="-76.2"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-6"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5-1"
+       width="25.4"
+       height="25.4"
+       x="-127"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4-5"
+       width="25.4"
+       height="25.4"
+       x="-152.4"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7-9"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4-49"
+       width="25.4"
+       height="25.4"
+       x="-177.8"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4-0"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="101.6"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-3-9"
+       width="25.4"
+       height="25.4"
+       x="177.8"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-0-1"
+       width="25.4"
+       height="25.4"
+       x="152.4"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-78-7"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-6-7"
+       width="25.4"
+       height="25.4"
+       x="127"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-8-1"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5-8-15"
+       width="25.4"
+       height="25.4"
+       x="76.2"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4-4-9"
+       width="25.4"
+       height="25.4"
+       x="50.8"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7-3-7"
+       width="25.4"
+       height="25.4"
+       x="4.959e-06"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4-1-76"
+       width="25.4"
+       height="25.4"
+       x="25.4"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4-4-7"
+       width="25.4"
+       height="25.4"
+       x="4.959e-06"
+       y="-152.4"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-36"
+       width="25.4"
+       height="25.4"
+       x="-25.4"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-56"
+       width="25.4"
+       height="25.4"
+       x="-50.8"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-3"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-9"
+       width="25.4"
+       height="25.4"
+       x="-76.2"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-48"
+       width="25.4"
+       height="25.4"
+       x="-101.6"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5-12"
+       width="25.4"
+       height="25.4"
+       x="-127"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4-9"
+       width="25.4"
+       height="25.4"
+       x="-152.4"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7-39"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4-0"
+       width="25.4"
+       height="25.4"
+       x="-177.8"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4-8"
+       width="25.4"
+       height="25.4"
+       x="-203.2"
+       y="152.4"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-3-8"
+       width="25.4"
+       height="25.4"
+       x="177.8"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-0-5"
+       width="25.4"
+       height="25.4"
+       x="152.4"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-78-0"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-6-9"
+       width="25.4"
+       height="25.4"
+       x="127"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-8-6"
+       width="25.4"
+       height="25.4"
+       x="101.6"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-5-8-3"
+       width="25.4"
+       height="25.4"
+       x="76.2"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-4-4-8"
+       width="25.4"
+       height="25.4"
+       x="50.8"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-2-7-3-5"
+       width="25.4"
+       height="25.4"
+       x="1.907e-06"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#000000;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-4-4-1-6"
+       width="25.4"
+       height="25.4"
+       x="25.4"
+       y="-203.2"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999685;stroke-linejoin:round;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect234-7-5-4-4-1"
+       width="25.4"
+       height="25.4"
+       x="1.907e-06"
+       y="-203.2"
+       transform="scale(1,-1)" />
+  </g>
+</svg>
