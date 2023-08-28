@@ -1,12 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://b68ikvb4fwcm0"]
+[gd_scene load_steps=4 format=3 uid="uid://b68ikvb4fwcm0"]
 
-[ext_resource type="PackedScene" uid="uid://c6t5bhqx0in3b" path="res://piece/piece.tscn" id="1_buxsq"]
 [ext_resource type="PackedScene" uid="uid://d21avbn0l33dl" path="res://board/board.tscn" id="2_cjafj"]
+[ext_resource type="PackedScene" uid="uid://d1jwsmno4yidn" path="res://board_initializer/board_initializer.tscn" id="3_4lmbi"]
+[ext_resource type="PackedScene" uid="uid://cljtj37u25w6b" path="res://adjudicator/adjudicator.tscn" id="4_ni8ql"]
 
 [node name="Game" type="Node2D"]
 
-[node name="Piece" parent="." instance=ExtResource("1_buxsq")]
-position = Vector2(2693, 2376)
-
 [node name="Board" parent="." instance=ExtResource("2_cjafj")]
 position = Vector2(2637, 2399)
+
+[node name="BoardInitializer" parent="." node_paths=PackedStringArray("board") instance=ExtResource("3_4lmbi")]
+board = NodePath("../Board")
+
+[node name="Adjudicator" parent="." instance=ExtResource("4_ni8ql")]

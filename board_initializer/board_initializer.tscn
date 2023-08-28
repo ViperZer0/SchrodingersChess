@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1jwsmno4yidn"]
+
+[ext_resource type="Script" path="res://board_initializer/BoardInitializer.cs" id="1_wh4o2"]
+
+[node name="BoardInitializer" type="Node"]
+script = ExtResource("1_wh4o2")
