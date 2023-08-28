@@ -18,6 +18,7 @@ public partial class BoardInitializer : Node
 		Node game = GetParent<Node>();
 		adjudicator = GetParent().GetNode<IAdjudicator>("Adjudicator");
 
+		BoardHistory boardHistory = GetParent().GetNode<BoardHistory>("BoardHistory");
 		PackedScene pieceScene = GD.Load<PackedScene>(piecePath);
 
 		// White pieces.
@@ -26,7 +27,8 @@ public partial class BoardInitializer : Node
 			for(uint file = 0; file < 8; file++)
 			{
 				Piece piece = pieceScene.Instantiate<Piece>();
-				piece.Create(adjudicator, board, false, rank, file);
+				piece.Create(adjudicator, board, PieceColor.White, rank, file);
+				boardHistory.AddPieceToBoard(piece, rank, file);
 				// Have to wait until scene is finished loading to add children.
 				game.CallDeferred(Node.MethodName.AddChild, piece);
 			}
@@ -38,7 +40,8 @@ public partial class BoardInitializer : Node
 			for(uint file = 0; file < 8; file++)
 			{
 				Piece piece = pieceScene.Instantiate<Piece>();
-				piece.Create(adjudicator, board, true, rank, file);
+				piece.Create(adjudicator, board, PieceColor.Black, rank, file);
+				boardHistory.AddPieceToBoard(piece, rank, file);
 				game.CallDeferred(Node.MethodName.AddChild, piece);
 			}
 		}

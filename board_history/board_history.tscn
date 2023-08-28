@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://tmeda3ssq5g8"]
+
+[ext_resource type="Script" path="res://board_history/BoardHistory.cs" id="1_kcuuy"]
+
+[node name="BoardHistory" type="Node"]
+script = ExtResource("1_kcuuy")

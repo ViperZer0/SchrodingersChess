@@ -70,12 +70,12 @@ public partial class Piece : Node2D
 	/// <param name="isWhite">True if this is a white piece, false if black.</param>
 	/// <param name="rank">Rank to start the piece at.</param>
 	/// <param name="file">File to start the piece at.</param>
-	public void Create(IAdjudicator adjudicator, Board board, bool isWhite, uint rank, uint file)
+	public void Create(IAdjudicator adjudicator, Board board, PieceColor pieceColor, uint rank, uint file)
 	{
 		this.adjudicator = adjudicator;
 		this.board = board;
 
-		this.white = isWhite;
+		this.pieceColor = pieceColor;
 		MoveToSquare(rank, file);
 
 		this.pieceTypes = PieceTypeFactory.GetAllPieceTypes().ToList();
@@ -118,12 +118,6 @@ public partial class Piece : Node2D
 
 		// If piece makes an invalid move.
 		if (!ValidateMove(this.rank, this.file, rank, file))
-		{
-			MoveToSquare(this.rank, this.file);
-			return;
-		}
-		// If adjudicator says this piece made an invalid move.
-		if (!this.adjudicator.ValidateMove(this, this.rank, this.file, rank, file))
 		{
 			MoveToSquare(this.rank, this.file);
 			return;
