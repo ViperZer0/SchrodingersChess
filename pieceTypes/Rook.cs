@@ -24,5 +24,10 @@ public class Rook: IPieceType
 
         return false;
     }
+
+    public bool ValidateCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
+    {
+        return ValidateMove(rankFrom, fileFrom, rankTo, fileTo);
+    }
 }
 

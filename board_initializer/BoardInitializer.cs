@@ -27,7 +27,7 @@ public partial class BoardInitializer : Node
 			for(uint file = 0; file < 8; file++)
 			{
 				Piece piece = pieceScene.Instantiate<Piece>();
-				piece.Create(adjudicator, board, PieceColor.White, rank, file);
+				piece.Create(adjudicator, boardHistory, board, PieceColor.White, rank, file);
 				boardHistory.AddPieceToBoard(piece, rank, file);
 				// Have to wait until scene is finished loading to add children.
 				game.CallDeferred(Node.MethodName.AddChild, piece);
@@ -40,7 +40,7 @@ public partial class BoardInitializer : Node
 			for(uint file = 0; file < 8; file++)
 			{
 				Piece piece = pieceScene.Instantiate<Piece>();
-				piece.Create(adjudicator, board, PieceColor.Black, rank, file);
+				piece.Create(adjudicator, boardHistory, board, PieceColor.Black, rank, file);
 				boardHistory.AddPieceToBoard(piece, rank, file);
 				game.CallDeferred(Node.MethodName.AddChild, piece);
 			}
