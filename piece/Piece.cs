@@ -27,7 +27,7 @@ public partial class Piece : Node2D
 	
 	private IAdjudicator adjudicator;
 
-    private BoardHistory boardHistory;
+	private BoardHistory boardHistory;
 
 	private List<IPieceType> pieceTypes;
 
@@ -69,22 +69,22 @@ public partial class Piece : Node2D
 	/// MUST be called when instantiating a new piece:
 	/// </summary>
 	/// <param name="adjudicator">A reference to the game adjudicator.</param>
-    /// <param name="boardHistory"> A reference to the board history.</param>
-    /// <param name="pieceColor">What color piece this is</param>
+	/// <param name="boardHistory"> A reference to the board history.</param>
+	/// <param name="pieceColor">What color piece this is</param>
 	/// <param name="rank">Rank to start the piece at.</param>
 	/// <param name="file">File to start the piece at.</param>
 	public void Create(IAdjudicator adjudicator, BoardHistory boardHistory, Board board, PieceColor pieceColor, uint rank, uint file)
 	{
 		this.adjudicator = adjudicator;
-        this.boardHistory = boardHistory;
+		this.boardHistory = boardHistory;
 		this.board = board;
 
 		this.pieceColor = pieceColor;
 		MoveToSquare(rank, file);
 
 		this.pieceTypes = PieceTypeFactory.GetAllPieceTypes().ToList();
-        // Add pawn type with the color argument.
-        this.pieceTypes.Add(new Pawn(pieceColor));
+		// Add pawn type with the color argument.
+		this.pieceTypes.Add(new Pawn(pieceColor));
 	}
 
 	// Called when an input event happens.
@@ -122,21 +122,21 @@ public partial class Piece : Node2D
 			return;
 		}
 
-        // Move passes through pieces (if not a knight move)
-        if (MovePassesThroughPiece(this.rank, this.file, rank, file))
-        {
-            MoveToSquare(this.rank, this.file);
-            return;
-        }
-            
-        // Is this move a capture? 
-        // If so is it a valid capture?
-        (bool capture, bool valid) = MoveIsValidCapture(this.rank, this.file, rank, file);
-        if(!valid)
-        {
-            MoveToSquare(this.rank, this.file);
-            return;
-        }
+		// Move passes through pieces (if not a knight move)
+		if (MovePassesThroughPiece(this.rank, this.file, rank, file))
+		{
+			MoveToSquare(this.rank, this.file);
+			return;
+		}
+			
+		// Is this move a capture? 
+		// If so is it a valid capture?
+		(bool capture, bool valid) = MoveIsValidCapture(this.rank, this.file, rank, file);
+		if(!valid)
+		{
+			MoveToSquare(this.rank, this.file);
+			return;
+		}
 
 		// If piece makes an invalid move.
 		if (capture == false && !ValidateMove(this.rank, this.file, rank, file))
@@ -145,31 +145,31 @@ public partial class Piece : Node2D
 			return;
 		}
 
-        // If piece makes an invalid capture
-        if (capture == true && !ValidateCapture(this.rank, this.file, rank, file))
-        {
-            MoveToSquare(this.rank, this.file);
-            return;
-        }
+		// If piece makes an invalid capture
+		if (capture == true && !ValidateCapture(this.rank, this.file, rank, file))
+		{
+			MoveToSquare(this.rank, this.file);
+			return;
+		}
 
-        if(!adjudicator.ValidateMove(this, this.rank, this.file, rank, file))
-        {
-            MoveToSquare(this.rank, this.file);
-            return;
-        }
+		if(!adjudicator.ValidateMove(this, this.rank, this.file, rank, file))
+		{
+			MoveToSquare(this.rank, this.file);
+			return;
+		}
 		// Otherwise, we "resolve" what type of piece this is and make the move.
-        if (capture == true)
-        {
-            FilterPieceTypesOnCapture(this.rank, this.file, rank, file);
-            boardHistory.CapturePiece(this.rank, this.file, rank, file);
-        }
-        else
-        {
-            FilterPieceTypesOnMove(this.rank,this.file, rank, file);
-            boardHistory.MovePiece(this.rank, this.file, rank, file);
-        }
+		if (capture == true)
+		{
+			FilterPieceTypesOnCapture(this.rank, this.file, rank, file);
+			boardHistory.CapturePiece(this.rank, this.file, rank, file);
+		}
+		else
+		{
+			FilterPieceTypesOnMove(this.rank,this.file, rank, file);
+			boardHistory.MovePiece(this.rank, this.file, rank, file);
+		}
 
-        adjudicator.EndTurn();
+		adjudicator.EndTurn();
 		MoveToSquare(rank, file);
 	}
 
@@ -197,60 +197,60 @@ public partial class Piece : Node2D
 		MoveToSquare(this.rank, this.file);
 	}
 
-    private bool MovedOntoSameSquare(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
-    {
-        return (rankFrom == rankTo && fileFrom == fileTo);
-    }
+	private bool MovedOntoSameSquare(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
+	{
+		return (rankFrom == rankTo && fileFrom == fileTo);
+	}
 
-    private bool MovePassesThroughPiece(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
-    {
-        return boardHistory.GetCurrentBoardState().PieceBetweenCoords(rankFrom, fileFrom, rankTo, fileTo);
-    }
+	private bool MovePassesThroughPiece(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
+	{
+		return boardHistory.GetCurrentBoardState().PieceBetweenCoords(rankFrom, fileFrom, rankTo, fileTo);
+	}
 
-    /*
-     * capture = true, valid = true := move lands on other side's piece
-     * capture = true, valud = false := N/A
-     * capture = false, valid = true := move does not land on any other piece.
-     * capture = false, valid = false := Move lands on own side's pieces.
-     */
-    private (bool capture, bool valid) MoveIsValidCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
-    {
-        bool capture = false;
-        // We are landing on another piece.
-        if (boardHistory.GetCurrentBoardState().PieceAtLocation(rankTo, fileTo))
-        {
-            Piece piece = boardHistory.GetCurrentBoardState().GetPieceAtCoords(rankTo, fileTo);
-            capture = this.pieceColor != piece.PieceColor;
-            // Can't capture our own piece!
-            if (capture == false)
-            {
-                return (false, false);
-            }
-            return (true, true);
-        }
+	/*
+	 * capture = true, valid = true := move lands on other side's piece
+	 * capture = true, valud = false := N/A
+	 * capture = false, valid = true := move does not land on any other piece.
+	 * capture = false, valid = false := Move lands on own side's pieces.
+	 */
+	private (bool capture, bool valid) MoveIsValidCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
+	{
+		bool capture = false;
+		// We are landing on another piece.
+		if (boardHistory.GetCurrentBoardState().PieceAtLocation(rankTo, fileTo))
+		{
+			Piece piece = boardHistory.GetCurrentBoardState().GetPieceAtCoords(rankTo, fileTo);
+			capture = this.pieceColor != piece.PieceColor;
+			// Can't capture our own piece!
+			if (capture == false)
+			{
+				return (false, false);
+			}
+			return (true, true);
+		}
 
-        return (false, true);
-    }
+		return (false, true);
+	}
 
 	private bool ValidateMove(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
 	{
 		return this.pieceTypes.Any(p => p.ValidateMove(rankFrom, fileFrom, rankTo, fileTo));
 	}
 
-    private bool ValidateCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
-    {
-        return this.pieceTypes.Any(p => p.ValidateCapture(rankFrom, fileFrom, rankTo, fileTo));
-    }
+	private bool ValidateCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
+	{
+		return this.pieceTypes.Any(p => p.ValidateCapture(rankFrom, fileFrom, rankTo, fileTo));
+	}
 
 	private void FilterPieceTypesOnMove(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
 	{
 		this.pieceTypes = this.pieceTypes.Where(p => p.ValidateMove(rankFrom, fileFrom, rankTo, fileTo)).ToList();
 	}
 
-    private void FilterPieceTypesOnCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
-    {
-        this.pieceTypes = this.pieceTypes.Where(p => p.ValidateCapture(rankFrom, fileFrom, rankTo, fileTo)).ToList();
-    }
+	private void FilterPieceTypesOnCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
+	{
+		this.pieceTypes = this.pieceTypes.Where(p => p.ValidateCapture(rankFrom, fileFrom, rankTo, fileTo)).ToList();
+	}
 
 	// Event handler calld when a mouse enters the piece area.
 	private void OnMouseEnter()

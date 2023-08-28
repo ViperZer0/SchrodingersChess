@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://b68ikvb4fwcm0"]
+[gd_scene load_steps=5 format=3 uid="uid://b68ikvb4fwcm0"]
 
 [ext_resource type="PackedScene" uid="uid://d21avbn0l33dl" path="res://board/board.tscn" id="2_cjafj"]
 [ext_resource type="PackedScene" uid="uid://d1jwsmno4yidn" path="res://board_initializer/board_initializer.tscn" id="3_4lmbi"]
+[ext_resource type="PackedScene" uid="uid://tmeda3ssq5g8" path="res://board_history/board_history.tscn" id="4_2r7n7"]
 [ext_resource type="PackedScene" uid="uid://cljtj37u25w6b" path="res://adjudicator/adjudicator.tscn" id="4_ni8ql"]
 
 [node name="Game" type="Node2D"]
@@ -13,3 +14,5 @@ position = Vector2(2637, 2399)
 board = NodePath("../Board")
 
 [node name="Adjudicator" parent="." instance=ExtResource("4_ni8ql")]
+
+[node name="BoardHistory" parent="." instance=ExtResource("4_2r7n7")]
