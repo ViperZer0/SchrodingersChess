@@ -63,7 +63,6 @@ public partial class Piece : Node2D
 			this.Position = GetViewport().GetMousePosition();
 		}
 	}
-
 	
 	/// <summary>
 	/// MUST be called when instantiating a new piece:
@@ -98,6 +97,12 @@ public partial class Piece : Node2D
 		{
 			this.pickedUp = false;
 			HandlePieceDropped();
+		}
+		// Mostly a debug thing so we can test what states a piece has
+		// non-graphically.
+		if(@event.IsActionPressed("query") && this.mouseOver)
+		{
+			PrintPieceTypes();
 		}
 	}
 
@@ -250,6 +255,12 @@ public partial class Piece : Node2D
 	private void FilterPieceTypesOnCapture(uint rankFrom, uint fileFrom, uint rankTo, uint fileTo)
 	{
 		this.pieceTypes = this.pieceTypes.Where(p => p.ValidateCapture(rankFrom, fileFrom, rankTo, fileTo)).ToList();
+	}
+
+	//Debug method for printing out piece types
+	private void PrintPieceTypes()
+	{
+		GD.Print(string.Join(",", this.pieceTypes.Select(t => t.GetType().Name)));
 	}
 
 	// Event handler calld when a mouse enters the piece area.

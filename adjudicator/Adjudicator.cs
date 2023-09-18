@@ -9,6 +9,8 @@ public partial class Adjudicator : Node, IAdjudicator
 
 	public bool ValidateMove(Piece piece, uint rankFrom, uint rankTo, uint fileFrom, uint fileTo)
 	{
+		GD.Print(pieceTurn.ToString());
+		GD.Print(piece.PieceColor.ToString());
 		if(piece.PieceColor != pieceTurn)
 		{
 			return false;

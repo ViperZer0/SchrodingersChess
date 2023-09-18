@@ -40,7 +40,9 @@ public partial class Board : Node2D
 		Vector2 closestSpace = relativeCoords.Floor();
 		// X and Y should both be integers due to floor, and shouldn't be
 		// negative due to previous check.
-		return ((uint)closestSpace.Y, (uint)closestSpace.X);
+		// We need to flip the Y axis since in chess rank is the bottom left
+		// corner.
+		return (numRanks - (uint)closestSpace.Y - 1, (uint)closestSpace.X);
 	}
 
 	/// <summary>
@@ -78,7 +80,9 @@ public partial class Board : Node2D
 		{
 			throw new ArgumentOutOfRangeException($"File greater than ${numFiles}");
 		}
-		return (new Vector2(file, rank) * GetSpaceSize() + GetCenterOfSpaceOffset());
+
+		Vector2 convertedCoords = new Vector2(file, numRanks - rank - 1);
+		return (convertedCoords * GetSpaceSize() + GetCenterOfSpaceOffset());
 	}
 
 	/// <summary>
